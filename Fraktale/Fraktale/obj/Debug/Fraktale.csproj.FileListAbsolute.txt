@@ -1,0 +1,10 @@
+C:\Users\terminal\source\repos\Fraktale\Fraktale\bin\Debug\Fraktale.exe.config
+C:\Users\terminal\source\repos\Fraktale\Fraktale\bin\Debug\Fraktale.exe
+C:\Users\terminal\source\repos\Fraktale\Fraktale\bin\Debug\Fraktale.pdb
+C:\Users\terminal\source\repos\Fraktale\Fraktale\obj\Debug\Fraktale.csproj.AssemblyReference.cache
+C:\Users\terminal\source\repos\Fraktale\Fraktale\obj\Debug\Fraktale.Form1.resources
+C:\Users\terminal\source\repos\Fraktale\Fraktale\obj\Debug\Fraktale.Properties.Resources.resources
+C:\Users\terminal\source\repos\Fraktale\Fraktale\obj\Debug\Fraktale.csproj.GenerateResource.cache
+C:\Users\terminal\source\repos\Fraktale\Fraktale\obj\Debug\Fraktale.csproj.CoreCompileInputs.cache
+C:\Users\terminal\source\repos\Fraktale\Fraktale\obj\Debug\Fraktale.exe
+C:\Users\terminal\source\repos\Fraktale\Fraktale\obj\Debug\Fraktale.pdb
