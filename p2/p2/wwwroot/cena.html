@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>malarz</title>
+    <link rel="stylesheet"href="styl.css"/>
+</head>
+<body>
+    <section class="head">
+        <h1><a href="index.html">Koszty farby</a></h1>
+    </section>
+    <div class="container">
+        <section class="left">
+            <h3>Mieszamy czy wyceniamy?</h3>
+            <div>
+                <a href="cena.html">Wyceniamy</a>
+            </div>
+        </section>
+        <section class="right">
+            <h3>Obliczanie na podstawie powierzchni zapotrzebowania na farbę</h3>
+            <p>Podaj powierzchnię: <input type="text" id="liczba" /></p>
+            <button onclick="policz()">Policz</button>
+            <p id="komunikat">></p>
+            <script>
+
+                function policz() {
+
+                    let liczba = document.querySelector("#liczba").value;
+
+                    if (/^([0-9]+)([.]([0-9])+))?$/.test(liczba)) {
+
+                        let pow = parseFloat(liczba) / 4;
+
+                        document.querySelector("#komunikat").innerHTML = "Liczba jednolitrowych puszek farby potrzebnych do pomalowania wynosi: " + Math.ceil(pow);
+
+                    } else alert("Podana wartość jest nieprawidłowa");
+                }
+            </script>
+        </section>
+    </div>
+    <section class="foot">
+        MALARZ<br />
+        Stronę opracowal: 00000000000
+    </section>
+
+</body>
+</html>

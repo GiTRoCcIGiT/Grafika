@@ -1,0 +1,42 @@
+﻿
+body > section
+{
+    text-align: center;
+    font-family: Arial;
+}
+
+.head {
+    background-color: #829EB9;
+    height: 80px;
+    padding-top: 10px;
+}
+
+.container {
+    display: flex;
+}
+
+.container > section {
+    height: 500px;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 100px;
+
+}
+
+.left {
+    background: #B3C6D9;
+    width: 25%;
+}
+
+.right {
+    background: #E0E9F1;
+    width: 75%;
+}
+
+.foot {
+    background: #ffff00;
+    text-align: center;
+    font-family: Arial;
+    width: 50px;
+}
+
